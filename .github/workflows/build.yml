@@ -8,11 +8,10 @@ jobs:
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
-        java-version: 25
+          java-version: 25
       - run: chmod +x gradlew
       - run: ./gradlew build
       - uses: actions/upload-artifact@v4
         with:
           name: Comet-jar
           path: build/libs/*.jar
-         
