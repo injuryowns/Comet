@@ -1,7 +1,0 @@
-{
-  "required": true,
-  "package": "com.example.client.mixin",
-  "compatibilityLevel": "JAVA_21",
-  "client": ["NameProtectMixin", "HeldItemRendererMixin", "InGameOverlayRendererMixin", "GameRendererMixin", "InGameHudMixin", "CameraMixin"],
-  "injectors": { "defaultRequire": 0 }
-}
